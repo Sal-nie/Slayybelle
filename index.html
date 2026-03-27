@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>S'LayyBelle</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+    <link href="C:\Users\M.SANI BASHIR\Music\Slayybelle">
+</head>
+
+<body>
+
+<nav>
+    <h1>S'layybelle!</h1>
+
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#female">Female Tops</a></li>
+        <li><a href="#male">Male Tops</a></li>
+        <li><a href="#children">Children</a></li>
+        <li><a href="#skincare">Skincare</a></li>
+        <li><a href="#korean">K-Beauty</a></li>
+        <li><a href="#perfume">Perfume</a></li>
+    </ul>
+<button id="darkModeToggle">🌙</button>
+    <div class="cart" onclick="location.href='#cart-section'">
+    🛒 <span id="cart-count">0</span>
+</div>
+</nav>
+
+<section id="home" class="hero">
+    <h2>Welcome to S'layybelle!</h2>
+    <p>Fashion & Skincare that makes you glow ✨</p>
+</section>
+
+<section class="hero">
+    <h2>Look Good. Feel Better.</h2>
+    <p>Your one-stop shop for fashion & skincare ✨</p>
+    <button onclick="location.href='#female'">Shop Now</button>
+</section>
+
+<div class="search-box">
+    <input type="text" id="search" placeholder="Search products...">
+</div>
+
+<section id="female">
+    <h2>Female Tops</h2>
+    <section id="female">
+
+    <div class="products">
+
+        <div class="card">
+            <span class="badge">NEW</span>
+            <span class="heart">♡</span>
+            <img src="C:\Users\M.SANI BASHIR\Music\Slayybelle\OIP (5).webp">
+            <h3>Silk Blouse</h3>
+            <p>₦8,000</p>
+            <button onclick="addToCart('Silk Blouse', 8000)">Add to Cart</button>
+        </div>
+
+        <div class="card">
+            <span class="badge">NEW</span>
+            <span class="heart">♡</span>
+            <img src="C:\Users\M.SANI BASHIR\Music\Slayybelle\OIP (2).webp">
+            <h3>Cropped Tee</h3>
+            <p>₦5,500</p>
+            <button onclick="addToCart('Cropped Tee', 5500)">Add to Cart</button>
+        </div>
+
+        <div class="card">
+            <span class="badge">NEW</span>
+            <span class="heart">♡</span>
+            <img src="C:\Users\M.SANI BASHIR\Music\Slayybelle\OIP.webp">
+            <h3>Long Sleeve Top</h3>
+            <p>₦7,000</p>
+            <button onclick="addToCart('Long Sleeve Top', 7000)">Add to Cart</button>
+        </div>
+
+    </div>
+</section>
+</section>
+
+<section id="male">
+    <h2>Male Tops</h2>
+    <section id="male">
+
+    <div class="products">
+
+        <div class="card">
+            <span class="badge">NEW</span>
+            <span class="heart">♡</span>
+            <img src="C:\Users\M.SANI BASHIR\Music\Slayybelle\OIP (6).webp">
+            <h3>Sweat Shirt</h3>
+            <p>₦8,000</p>
+            <button onclick="addToCart('Sweat Shirt', 8000)">Add to Cart</button>
+        </div>
+
+        <div class="card">
+            <span class="badge">NEW</span>
+            <span class="heart">♡</span>
+            <img src="C:\Users\M.SANI BASHIR\Music\Slayybelle\OIP (8).webp">
+            <h3>Leather Jacket</h3>
+            <p>₦5,500</p>
+            <button onclick="addToCart('Leather Jacket', 5500)">Add to Cart</button>
+        </div>
+
+        <div class="card">
+            <span class="badge">NEW</span>
+            <span class="heart">♡</span>
+            <img src="C:\Users\M.SANI BASHIR\Music\Slayybelle\OIP (7).webp">
+            <h3>Long Sleeve Shirt</h3>
+            <p>₦7,000</p>
+            <button onclick="addToCart('Long Sleeve Shirt', 7000)">Add to Cart</button>
+        </div>
+
+    </div>
+</section>
+</section>
+
+<section id="children">
+    <h2>Children</h2>
+    <section id="children">
+    <div class="products">
+
+        <div class="card">
+            <span class="badge">NEW</span>
+            <span class="heart">♡</span>
+            <img src="C:\Users\M.SANI BASHIR\Music\Slayybelle\OIP (10).webp">
+            <h3>Pyjamas Set</h3>
+            <p>₦8,000</p>
+            <button onclick="addToCart('Pyjamas Set', 8000)">Add to Cart</button>
+        </div>
+
+        <div class="card">
+            <span class="badge">NEW</span>
+            <span class="heart">♡</span>
+            <img src="C:\Users\M.SANI BASHIR\Music\Slayybelle\download (2).webp">
+            <h3>Colorful Shirt</h3>
+            <p>₦5,500</p>
+            <button onclick="addToCart('Colorful Shirt', 5500)">Add to Cart</button>
+        </div>
+
+        <div class="card">
+            <span class="badge">NEW</span>
+            <span class="heart">♡</span>
+            <img src="C:\Users\M.SANI BASHIR\Music\Slayybelle\download (4).webp">
+            <h3>Long Sleeve Top</h3>
+            <p>₦7,000</p>
+            <button onclick="addToCart('Long Sleeve Top', 7000)">Add to Cart</button>
+        </div>
+
+    </div>
+</section>
+</section>
+
+<section id="skincare">
+    <h2>Skincare</h2>
+
+    <div class="products">
+
+        <div class="card">
+            <span class="badge">NEW</span>
+            <span class="heart">♡</span>
+            <img src="C:\Users\M.SANI BASHIR\Music\Slayybelle\OIP (16).webp">
+            <h3>Face Cleanser</h3>
+            <p>₦4,000</p>
+            <button onclick="addToCart('Face Cleanser', 4000)">Add to Cart</button>
+        </div>
+
+        <div class="card">
+            <span class="badge">NEW</span>
+            <span class="heart">♡</span>
+            <img src="C:\Users\M.SANI BASHIR\Music\Slayybelle\OIP (17).webp">
+            <h3>Moisturizer</h3>
+            <p>₦6,500</p>
+            <button onclick="addToCart('Moisturizer', 6500)">Add to Cart</button>
+        </div>
+
+    </div>
+</section>
+
+<section id="korean">
+    <h2>Korean Skincare</h2>
+    <section id="korean">
+
+    <div class="products">
+
+        <div class="card">
+            <span class="badge">NEW</span>
+            <span class="heart">♡</span>
+            <img src="C:\Users\M.SANI BASHIR\Music\Slayybelle\th.webp">
+            <h3>Gua Sha Set</h3>
+            <p>₦8,000</p>
+            <button onclick="addToCart('Gua Sha Set', 8000)">Add to Cart</button>
+        </div>
+
+        <div class="card">
+            <span class="badge">NEW</span>
+            <span class="heart">♡</span>
+            <img src="C:\Users\M.SANI BASHIR\Music\Slayybelle\download (8).webp">
+            <h3>Korean Face Mask</h3>
+            <p>₦5,500</p>
+            <button onclick="addToCart('Korean Face Mask', 5500)">Add to Cart</button>
+        </div>
+
+        <div class="card">
+            <span class="badge">NEW</span>
+            <span class="heart">♡</span>
+            <img src="C:\Users\M.SANI BASHIR\Music\Slayybelle\OIP (27).webp">
+            <h3>Eye and Lip Mask</h3>
+            <p>₦7,000</p>
+            <button onclick="addToCart('Eye and Lip Mask', 7000)">Add to Cart</button>
+        </div>
+
+    </div>
+</section>
+</section>
+
+<section id="perfume">
+    <h2>Perfume & Bodycare</h2>
+    <section id="perfume">
+
+    <div class="products">
+
+        <div class="card">
+            <span class="badge">NEW</span>
+            <span class="heart">♡</span>
+            <img src="C:\Users\M.SANI BASHIR\Music\Slayybelle\OIP (28).webp">
+            <h3>Arabian Oud</h3>
+            <p>₦8,000</p>
+            <button onclick="addToCart('Arabian Oud', 8000)">Add to Cart</button>
+        </div>
+
+        <div class="card">
+            <span class="badge">NEW</span>
+            <span class="heart">♡</span>
+            <img src="https://via.placeholder.com/200">
+            <h3>Sto Body Lotion</h3>
+            <p>₦5,500</p>
+            <button onclick="addToCart('Sto Body Lotion', 5500)">Add to Cart</button>
+        </div>
+
+        <div class="card">
+            <span class="badge">NEW</span>
+            <span class="heart">♡</span>
+            <img src="C:\Users\M.SANI BASHIR\Music\Slayybelle\download (6).webp">
+            <h3>Scented Cream</h3>
+            <p>₦7,000</p>
+            <button onclick="addToCart('Scented Cream', 7000)">Add to Cart</button>
+        </div>
+
+    </div>
+</section>
+</section>
+
+<div id="popup">Added to cart 🛍️</div>
+
+<script>
+function showPopup() {
+    let popup = document.getElementById("popup");
+    popup.style.opacity = "1";
+
+    setTimeout(() => {
+        popup.style.opacity = "0";
+    }, 2000);
+}
+</script>
+<script>
+document.querySelectorAll(".heart").forEach(heart => {
+    heart.addEventListener("click", () => {
+        heart.textContent = heart.textContent === "♡" ? "❤️" : "♡";
+        heart.classList.add("clicked");
+
+        setTimeout(() => {
+            heart.classList.remove("clicked");
+        }, 400);
+    });
+});
+</script>
+<script>
+document.getElementById("search").addEventListener("keyup", function() {
+    let value = this.value.toLowerCase();
+    let cards = document.querySelectorAll(".card");
+
+    cards.forEach(card => {
+        let text = card.textContent.toLowerCase();
+        card.style.display = text.includes(value) ? "block" : "none";
+    });
+});
+</script>
+<script>
+let toggle = document.getElementById("darkModeToggle");
+
+toggle.addEventListener("click", () => {
+    document.body.classList.toggle("dark-mode");
+
+    toggle.textContent =
+        toggle.textContent === "🌙" ? "☀️" : "🌙";
+});
+</script>
+
+<section id="cart-section">
+    <h2>Your Cart 🛒</h2>
+    <ul id="cart-items"></ul>
+    <h3>Total: ₦<span id="total">0</span></h3>
+    <button class="checkout">Checkout</button>
+</section>
+
+</body>
+
+<script>
+let count = 0;
+let total = 0;
+
+function addToCart(name, price) {
+    count++;
+    document.getElementById("cart-count").textContent = count;
+
+    let li = document.createElement("li");
+    li.textContent = name + " - ₦" + price;
+
+    document.getElementById("cart-items").appendChild(li);
+
+    total += price;
+    document.getElementById("total").textContent = total;
+
+    showPopup();
+}
+</script>
+
+</html>
